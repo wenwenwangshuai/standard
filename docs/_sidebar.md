@@ -1,12 +1,15 @@
-- TypeScript
-  - [TS总结](ts/introduction.md)
-- CSS
-  - [Flex布局：语法篇](css/flex-grammar.md)
-  - [Flex布局：实例篇](css/flex-instance.md)
-- React
-  - [Hooks 详解](react/hooks.md)
 - 技术规范
+  - [技术栈约定](technology/standard.md)
+  - [开发规范](code/standard.md)
+  - [目录规范](file/standard.md)
+  - [命名规范](name/standard.md)
+  - [接口规范](api/standard.md)
   - [版本号规范](standard/semanticVersion.md)
   - [git提交规范](standard/gitCommit.md)
+- 技术点相关
+  - [【TS】TS总结](ts/introduction.md)
+  - [【CSS】Flex布局：语法篇](css/flex-grammar.md)
+  - [【CSS】Flex布局：实例篇](css/flex-instance.md)
+  - [【REACT】Hooks 详解](react/hooks.md)
 - 其他
   - [前端工程化的理解](other/engineering.md)
