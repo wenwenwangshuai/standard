@@ -234,9 +234,9 @@ $ git tag -a "1.2.1" HEAD -m "fix typo"
 
 * 主分支名称：master
 * 主开发分支名称：develop
-* 新功能开发分支名称：feature/...，其中...为新功能简述
-* 发布分支名称：release/...，其中...为版本号。
-* bug修复分支名称：hotfix-.../hotfix/...，其中...为bug简述。
+* 新功能开发分支名称：feature-...、feature/...，其中...为新功能简述
+* 发布分支名称：release-...、release/...，其中...为版本号。
+* bug修复分支名称：hotfix-...、hotfix/...，其中...为bug简述。
 
 ### 6.附加Git的冲突
 
@@ -251,4 +251,6 @@ $ git tag -a "1.2.1" HEAD -m "fix typo"
 
 ### 8.补充点
 
-1. 微盟云开发平台内的发布约束了git分支命名，如：qa/xxxx分支下打包至qa地址。所以可在上面的git flow模式基础下对分支命名做一些微调，feature/xxxx => qa/xxxx，develop => qa/default，这样更提高效率。
+1. 微盟云开发平台内的发布约束了git分支命名，如：qa/xxxx分支下打包是发布至qa地址。所以可在上面的git flow模式基础下对分支命名做一些微调，feature/xxxx => qa/xxxx，develop => qa/default，这样更提高效率。
+2. 天狼星的应用release分支被占用了，可采用release-...命名方式
+3. feature分支在开发过程中遇到部分功能上线时，需要把master最新的代码合并到当前正在开发的feature分支。（**注意：feature分支只能从master分支合并，不需要也不允许从其他分支合并！！！**）
