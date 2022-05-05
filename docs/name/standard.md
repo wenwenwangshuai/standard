@@ -49,7 +49,7 @@ max_limit
 
 5. 文件模块命名是名词，采用小驼峰命名法：exportExcel.js
 
-6. 组件命名是名词，采用大驼峰命名法：UserHome.vue（index.vue除外）
+6. 组件命名是名词，采用大驼峰命名法：UserHome.tsx（index.tsx除外）
 
 7. css类命名采用串行命名法：.header-logo
 

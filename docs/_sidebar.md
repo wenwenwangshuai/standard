@@ -6,6 +6,7 @@
   - [接口规范](api/standard.md)
   - [版本号规范](standard/semanticVersion.md)
   - [git提交规范](standard/gitCommit.md)
+  - [git flow分支管理](standard/gitFlow.md)
 - 技术点相关
   - [【TS】TS总结](ts/introduction.md)
   - [【CSS】Flex布局：语法篇](css/flex-grammar.md)
