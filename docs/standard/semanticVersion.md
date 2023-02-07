@@ -1,6 +1,5 @@
 # 语义化版本 2.0.0
 
-转自：[语义化版本 2.0.0](https://semver.org/lang/zh-CN/)
 
 ---------
 
@@ -100,9 +99,3 @@
 **语义化版本对于版本的字串长度是否有限制呢？**
 
 没有，请自行做适当的判断。举例来说，长到 255 个字元的版本已过度夸张。再者，特定的系统对于字串长度可能会有他们自己的限制。
-
-## 关于
-
-语义化版本控制的规范是由 Gravatars 创办者兼 GitHub 共同创办者 [Tom Preston-Werner](http://tom.preston-werner.com/) 所建立。
-
-如果您有任何建议，请到 [GitHub 上提出您的问题](https://github.com/mojombo/semver/issues)。

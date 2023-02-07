@@ -2,7 +2,6 @@
 
 ------
 
-转自：[优雅的提交你的 Git Commit Message](https://juejin.cn/post/6844903606815064077)
 
 > commit message 是开发的日常操作, 写好 log 不仅有助于他人 review, 还可以有效的输出 CHANGELOG, 对项目的管理实际至关重要, 但是实际工作中却常常被大家忽略.
 希望通过本文, 能够帮助大家重视和规范 commit message 的书写.

@@ -6,10 +6,6 @@
 
 ```
 ├── config
-│   ├── config.dev.ts
-│   ├── config.qa.ts
-│   ├── config.pl.ts
-│   ├── config.prod.ts
 │   ├── config.ts
 │   └── routes.ts
 ├── src
@@ -26,7 +22,7 @@
 │   │   ├── common.ts
 │   │   ├── base.ts
 │   │   └── index.ts // 暴露变量的出口
-│   ├── interface // ts类型定义
+│   ├── type // ts类型定义
 │   │   ├── seller
 │   │   │   └── index.ts
 │   │   ├── buyer
