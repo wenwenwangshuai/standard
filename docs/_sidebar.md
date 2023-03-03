@@ -1,7 +1,6 @@
 - 技术规范
   - [技术栈约定](technology/standard.md)
   - [开发规范](code/standard.md)
-  - [代码规范](standard/code.md)
   - [目录规范](file/standard.md)
   - [命名规范](name/standard.md)
   - [接口规范](api/standard.md)

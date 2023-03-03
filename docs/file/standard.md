@@ -5,9 +5,6 @@
 模块文件夹应该保证单一入口和出口
 
 ```
-├── config
-│   ├── config.ts
-│   └── routes.ts
 ├── src
 │   ├── assets // 资源文件
 │   │   └── img
@@ -59,14 +56,11 @@
 │   │   ├── buyer
 │   │   │   └── index.ts
 │   │   └── common.ts
-│   │── utils
-│   │   ├── request.ts  // axios拦截
-│   │   ├── tips.ts     // 各种tip提示统一封装类
-│   │   ├── utils.ts    // 工具集合
-│   │   └── validate.ts // 常见正则校验
-│   │── app.ts
-│   └── loading.tsx
-├── tsconfig.json
+│   └── utils
+│       ├── request.ts  // axios拦截
+│       ├── tips.ts     // 各种tip提示统一封装类
+│       ├── utils.ts    // 工具集合
+│       └── validate.ts // 常见正则校验
 ├── CHANGELOG.md
 ├── README.md
 └── package.json

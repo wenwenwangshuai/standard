@@ -1,4 +1,4 @@
-# 代码规范
+# 编码规范
 
 ## stylelint 配置
 
@@ -14,7 +14,6 @@ npm install stylelint stylelint-config-standard --save-dev
 module.exports = {
  extends: [
   'stylelint-config-standard',
-  'stylelint-config-css-modules',
   'stylelint-config-prettier',
  ],
  plugins: ['stylelint-declaration-block-no-ignored-properties'],
@@ -136,7 +135,7 @@ module.exports = {
 };
 ```
 
-## 开启 git commit
+## 开启 git commit lint
 
 ```json
 // package.json
